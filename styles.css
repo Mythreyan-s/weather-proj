@@ -1,0 +1,76 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+.wheatherform{
+    margin: 20px;
+}
+.iptcity{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid hsla(0, 4%, 5%, 0.363);
+    border-radius: 10px;
+    width: 300px;
+}
+button[type="submit"]{
+    padding:10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(120, 57%, 38%);
+    color: white;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: hsl(120, 57%, 28%);
+}
+.card{
+    background: linear-gradient(180deg,hsla(210, 100%, 75%),hsl(40, 100%, 75%));
+    padding: 50px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.568);
+    min-width:300px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:350px;
+}
+h1{
+    margin:0;
+}
+p{
+    font-size:1.5rem;
+    margin:5px 0px;
+}
+.citydisplay,.tempdisplay{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.534);
+    margin-bottom: 10px;
+}
+.humididtydisplay{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.discdisplay{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.wheatheremoji{
+    margin: 0;
+    font-size: 6rem;
+}
+.errordisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.295);
+}
+
